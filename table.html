@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linux Landing Page</title>
+  
+  <style>
+    /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background: #333;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 1rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-btn {
+    padding: 0.5rem 1.5rem;
+    background: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Features */
+  .features {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .card h3 {
+    color: #333;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Community Section */
+  .community {
+    background: #333;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .community p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .download {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .download-btn {
+    padding: 0.5rem 1.5rem;
+    background: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="logo">Linux</a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#download">Download</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Welcome to Linux</h1>
+      <p>Experience the power and flexibility of an open-source OS</p>
+      <a href="#download" class="cta-btn">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Why Choose Linux?</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <h3>Secure</h3>
+        <p>Linux is built with security in mind, providing a safe environment.</p>
+      </div>
+      <div class="card">
+        <h3>Customizable</h3>
+        <p>Choose from various distributions and customize your experience.</p>
+      </div>
+      <div class="card">
+        <h3>Community Driven</h3>
+        <p>Linux is supported by a vast community of developers worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Community Section -->
+  <section id="community" class="community">
+    <h2>Join Our Community</h2>
+    <p>Connect with fellow Linux enthusiasts and learn more together.</p>
+    <a href="#" class="cta-btn">Explore Community</a>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download" class="download">
+    <h2>Download Linux</h2>
+    <p>Start your Linux journey by downloading the latest version.</p>
+    <a href="#" class="download-btn">Download Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Linux Foundation. All rights reserved.</p>
+  </footer>
+</body>
+</html>
